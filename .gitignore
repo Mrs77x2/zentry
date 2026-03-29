@@ -19,6 +19,29 @@
 *.tar.gz
 *.rar
 
+# Eclipse / IntelliJ / VSCode
+*.classpath
+*.project
+*.settings/
+.idea/
+*.iml
+
+# Spring Boot
+target/
+spring-boot.log
+
+# Environment variables / secrets
+.env
+application.properties
+application.yml
+
+# Node.js (si hay frontend)
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
