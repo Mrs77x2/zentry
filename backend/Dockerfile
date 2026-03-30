@@ -1,7 +1,7 @@
 # Dockerfile para el backend Zentry
 
-# 1️⃣ Imagen base con Java 17 (necesario para Spring Boot)
-FROM eclipse-temurin:17-jdk-alpine
+# 1️⃣ Imagen base con Java 21 (necesario para Spring Boot)
+FROM eclipse-temurin:21-jdk-alpine
 
 # 2️⃣ Carpeta de trabajo dentro del contenedor
 WORKDIR /app
